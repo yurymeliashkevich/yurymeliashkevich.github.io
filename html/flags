@@ -1,1 +1,11 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flags of countries</title>
+    <link rel="stylesheet" type="text/css" href="flag.css">
+</head>
+<body>
+<div class="german-flag"></div>
+</body>
+</html>
