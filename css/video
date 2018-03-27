@@ -1,1 +1,9 @@
-
+.container {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+}
+.video-frame {
+    width: 640px;
+    height: 360px;
+}
