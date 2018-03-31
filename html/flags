@@ -2,10 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flags of countries</title>
-    <link rel="stylesheet" type="text/css" href="flag.css">
+    <title>Flags</title>
+    <link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
-<div class="german-flag"></div>
+    <div class="Flags">
+        <div class="german-flag" data-title="Flag of Germany"></div> <!-- Juriy -->
+        <div class="italy-flag" data-title="Flag of Italy"></div> <!-- Juriy -->
+        <div class="czech-flag" title="Flag of Czech Republic">
+            <div class="czech-flag-name"></div>
+        </div>
+        <!-- Juriy -->
+        <div class="switzerland-flag-name" title="Flag of Switzerland">
+        <div class="switzerland-flag"></div>
+    </div><!-- Juriy -->
+    <div class="canada-flag-name" title="Flag of Canada">
+        <div class="canada-flag"></div> <!-- Juriy -->
+    </div>
+    <div class="burkina-faso-flag-name" title="Flag of Burkina-Faso">
+        <div class="burkina-faso-flag"> <!-- Juriy -->
+            <div class="star-burkina-faso-flag"></div>
+        </div>
+        <div  class="turkey-flag-name" title="Flag of Turkey">
+            <div class="turkey-flag"> <!-- Juriy -->
+                <div class="star-turkey-flag"></div>
+            </div>
+        </div>
+        <div class="britain-flag-name" title="Flag of Great Britain">
+            <div class="britain-flag"> <!-- Juriy -->
+                <div class="blok-top-right"></div>
+                <div class="blok"></div>
+                <div class="blok-top-left"></div>
+                <div class="blok-down-left"></div>
+                <div class="blok-down-left-part-2"></div>
+                <div class="blok-top-right-2"></div>
+                <div class="blok-top-right-3"></div>
+                <div class="blok-down-right"></div>
+                <div class="blok-down-right-1"></div>
+            </div>
+        </div>
+        <div class="greece-flag-name" title="Flag of Greece">
+            <div class="greece-flag"> <!-- Juriy -->
+                <div class="greece-flag-cross"></div>
+                <div class="greece-flag-balt"></div>
+                <div class="greece-flag-balt-1"></div>
+            </div>
+        </div>
+        <div class="south-africa-name" title="Flag of South Africa">
+            <div class="south-africa"> <!-- Juriy -->
+                <div class="south-africa-down-blok"></div>
+                <div class="south-africa-down-blok-2"></div>
+                <div class="south-africa-top-blok-1"></div>
+                <div class="south-africa-top-blok-2"></div>
+            </div>
+        </div>
+
+        <div class="Maldives" data-title="Мальдивская Республика ">
+            <div class="maldives-crescent"></div>
+        </div>
+
+
+        <div class="Bahamas" data-title="Содружество Багамских Островов">
+            <div class="bahamas-arrow"></div>
+        </div>
+
+        <div class="Russia" data-title="Российская Федерация">
+
+        </div>
+
+        <div class="Norway" data-title="Королевство Норвегия">
+            <div class="vertical-line" > </div>
+            <div class="horizontal-line" ></div>
+        </div>
+
+        <div class="IvoryCoast" data-title="Республика Кот-д'Ивуар">
+        </div>
+
+        <div class="Japan"  data-title="Япония">
+            <div class="japan-circle"></div>
+        </div>
+
+
+        <div class="SaintVincentAndGrenadin" data-title="Сент-Винсент и Гренадины">
+            <div class="rombs">
+                <span class="grenadin-rhomb1"></span>
+                <span class="grenadin-rhomb2"></span>
+                <span class="grenadin-rhomb3"></span>
+            </div>
+        </div>
+
+        <div class="Liberia" data-title="Республика Либерия">
+            <div class="liberia-square"></div>
+            <span class="liberia-star"></span>
+        </div>
+
+        <div class="changes-flags-container">
+            <div class="Butan-position">
+                <div class="Butan">
+                    <div class="butan-dragon"></div>
+                    <div class="butan-name">Королевство Бутан</div>
+                </div>
+            </div>
+
+
+            <div class="SaintLucia">
+                <div class="SaintLucia-white-arrow"></div>
+                <div class="SaintLucia-black-arrow"></div>
+                <div class="SaintLucia-yellow-arrow"></div>
+                <div class="SaintLucia-name">Сент Люссия</div>
+            </div>
+        </div>
+
+        <div class="changes-flags-container">
+            <div class="Guernsey-position">
+                <div class="Guernsey">
+                    <div class="guernsey-horizontal-line"></div>
+                    <div class="guernsey-vertical-line"></div>
+                    <div class="guernsey-left-arrow"></div>
+                    <div class="guernsey-right-arrow"></div>
+                    <div class="guernsey-top-arrow"></div>
+                    <div class="guernsey-bottom-arrow"></div>
+                    <div class="guernsey-name">Гернси</div>
+                </div>
+            </div>
+
+            <div class="Scotland">
+                <div class="scotland-left-arrow"></div>
+                <div class="scotland-right-arrow"></div>
+                <div class="scotland-top-arrow"></div>
+                <div class="scotland-bottom-arrow"></div>
+                <div class="scotland-name">Шотландия</div>
+            </div>
+        </div>
+
+        <div class="changes-flags-container">
+            <div class="Montenegro-position">
+                <div class="Montenegro">
+                    <div class="Montenegro-image"></div>
+                    <div class="Montenegro-name">Черногория</div>
+                </div>
+            </div>
+
+            <div class="SriLanka">
+                <div class="SriLanka-lion-field"></div>
+                <div class="SriLanka-lion"></div>
+                <div class="SriLanka-name">Д.С.Р. Шри-Ланка</div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
 </html>
