@@ -1,0 +1,1313 @@
+.german-flag {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(to bottom, black 33%, red 33%,red 66%, #FFCE00 33%);
+    position: relative;
+    display: inline-block;
+    box-shadow: gray 0 0 5px 1px;
+}
+
+.german-flag:hover:after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0; top: 0; /* Положение подсказки */
+    z-index: 0; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 22px;; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+}
+.italy-flag {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(90deg, #009246 33%, #ffffff 33%, #ffffff 66%, #CE2B37 66%);
+    position: relative;
+    display: inline-block;
+}
+.italy-flag:hover:after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0;
+    top: 0; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255, 255, 230, 0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 22px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+}
+.czech-flag {
+    margin: 50px 0px;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+}
+.czech-flag-name:hover {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0;
+    top: 0; /* Положение подсказки */
+    z-index: 0; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255, 255, 230, 0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 22px;; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+}
+.czech-flag:before {
+    content: "";
+    border-top: 150px solid transparent;
+    border-left: 300px solid #11457E;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    z-index: 1;
+}
+.czech-flag:after {
+    content: "";
+    width: 600px;
+    height: 150px;
+    background-color: #D7141A;
+    position: absolute;
+    bottom: 0;
+}
+.switzerland-flag {
+    width: 300px;
+    height: 300px;
+    background-color: #FF0000;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+}
+.switzerland-flag:before {
+    background: white;
+    content: "";
+    height: 80px;
+    left: 55px;
+    position: absolute;
+    top: 110px;
+    width: 200px;
+}
+.switzerland-flag:after {
+    content: "";
+    background: white;
+    height: 200px;
+    position: absolute;
+    width: 80px;
+    left: 115px;
+    bottom: 50px;
+}
+.canada-flag {
+    margin: 50px 0px;
+    width: 600px;
+    height: 300px;
+    background-color: #FF0000;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+}
+.canada-flag:after {
+    content: "";
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    right: 150px;}
+
+.canada-flag:before {
+    content: "";
+    width: 260px;
+    height: 260px;
+    background: #F00;
+    position: absolute;
+    left: 170px;
+    bottom: 20px;
+    z-index: 1;
+    clip-path: polygon(47% 100%, 48% 70%, 25% 73%, 28% 65%, 7% 47%, 11% 44%, 8% 30%, 20% 32%, 23% 27%, 35% 40%, 32% 13%, 39% 16%, 50% 0, 61% 16%, 68% 13%, 65% 40%, 77% 27%, 80% 32%, 92% 30%, 89% 44%, 93% 47%, 72% 65%, 75% 73%, 52% 70%, 53% 100%);
+}
+.burkina-faso-flag {
+    width: 600px;
+    height: 300px;
+    background-color: #EF2B2D;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+}
+.burkina-faso-flag:before {
+    content: "";
+    background: #009E49;
+    position: absolute;
+    width: 600px;
+    height: 150px;
+}
+.star-burkina-faso-flag {
+    margin: 10px 0;
+    position: relative;
+    left: 250px;
+    top: 132px;
+    display: block;
+    color: #FCD116;
+    width: 0px;
+    height: 0px;
+    border-right:  50px solid transparent;
+    border-bottom: 35px  solid #FCD116;
+    border-left:   50px solid transparent;
+    -moz-transform:    rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform:     rotate(35deg);
+    -o-transform:      rotate(35deg);
+}
+.star-burkina-faso-flag:before {
+    border-bottom: 40px solid #FCD116;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -22px;
+    left: -32px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+
+}
+.star-burkina-faso-flag:after {
+    position: absolute;
+    display: block;
+    color: #FCD116;
+    top: 2px;
+    left: -53px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #FCD116;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
+}
+.turkey-flag {
+    width: 600px;
+    height: 300px;
+    background-color: #E30A17;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+    margin: 50px 0;
+}
+.turkey-flag:after {
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: -40px 0px 0px 30px white;
+    position: absolute;
+    left:150px;
+    bottom: 70px;
+}
+.star-turkey-flag {
+    margin: 10px 0;
+    position: relative;
+    left: 250px;
+    top: 132px;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right:  50px solid transparent;
+    border-bottom: 35px  solid white;
+    border-left:   50px solid transparent;
+    -moz-transform:    rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform:     rotate(90deg);
+    -o-transform:      rotate(90deg);
+}
+.star-turkey-flag:before {
+    border-bottom: 40px solid white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -22px;
+    left: -32px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+
+}
+.star-turkey-flag:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 2px;
+    left: -53px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
+}
+.britain-flag {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    box-shadow: gray 0 0 5px 1px;
+    margin: 50px 0;
+    z-index: 1;
+}
+.britain-flag:before {
+    background: #C8102E;
+    content: "";
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    width: 500px;
+}
+
+.britain-flag:after {
+    content: "";
+    background: #C8102E;
+    height: 300px;
+    position: absolute;
+    width: 50px;
+    left: 225px;
+    bottom: 0px;
+}
+.blok  {
+    width: 0px;
+    height: 60px;
+    border-bottom: 80px solid #012169;
+    border-right: 120px solid transparent;
+    position: absolute;
+    bottom: 190px;
+}
+.blok:before {
+    content: "";
+    border-bottom: 90px solid white;
+    border-right: 140px solid transparent;
+    position: absolute;
+    z-index: -1;
+    bottom: -80px;
+}
+.blok:after {
+    width: 0px;
+    content: "";
+    height: 160px;
+    border-bottom: 110px solid #C8102E;
+    border-right: 170px solid transparent;
+    position: absolute;
+    z-index: -2;
+    bottom: -80px;
+}
+.blok-top-left {
+    width: 0px;
+    content: "";
+    height: 0px;
+    border-top: 100px solid #012169;
+    border-left: 150px solid transparent;
+    position: absolute;
+    right: 295px;
+}
+.blok-down-left {
+    width: 0;
+    border-top: 70px solid #012169;
+    border-right: 100px solid transparent;
+    position: relative;
+    bottom: -190px;
+}
+.blok-down-left:after {
+    content: "";
+    top: -127px;
+    right: 0px;
+    border-bottom: 150px solid #C8102E;
+    border-left: 205px solid transparent;
+    position: relative;
+}
+.blok-down-left:before {
+    content: "";
+    width: 225px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: -85px;
+    left: 0;
+    z-index: 1;
+}
+.blok-down-left-part-2 {
+    top: 190px;
+    right: 295px;
+    border-bottom: 110px solid white;
+    border-left: 155px solid transparent;
+    position: absolute;
+}
+.blok-down-left-part-2:before {
+    content: "";
+    border-bottom: 100px solid #012169;
+    border-left: 140px solid transparent;
+    position: absolute;
+    bottom: -110px;
+    left: -140px;
+}
+.blok-down-left-part-2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 100px solid #012169;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top:-190px;
+    right: -240px;
+    z-index: 2;
+}
+
+.blok-top-right-2 {
+    border-top: 130px solid #C8102E;
+    border-right:200px solid transparent;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    z-index: -1;
+}
+.blok-top-right-2:before {
+    content: "";
+    border-top: 110px solid white;
+    border-right: 165px solid transparent;
+    position: absolute;
+    top: -130px;
+    right: -165px;
+}
+.blok-top-right-2:after {
+    content: "";
+    width: 205px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: -20px;
+    left: -5px;
+}
+.blok-top-right-3 {
+    width: 0;
+    height: 0;
+    border-bottom: 85px solid #012169;
+    border-left: 130px solid transparent;
+    position: relative;
+    left: 370px;
+    top: -63px;
+}
+.blok-down-right {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #012169;
+    border-right: 150px solid transparent;
+    position: relative;
+    right: -295px;
+    top: 27px;
+}
+.blok-down-right-1 {
+    width: 0;
+    height: 0;
+    border-top: 80px solid #012169;
+    border-left: 110px solid transparent;
+    position: relative;
+    right: -390px;
+    top: -80px;
+}
+.blok-down-right-1:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 90px solid white;
+    border-left: 125px solid transparent;
+    position: relative;
+    right: 125px;
+    top: 10px;
+    z-index: -1;
+}
+
+.blok-down-right-1:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 108px solid #C8102E;
+    border-left: 150px solid transparent;
+    position: relative;
+    right: 150px;
+    top: 10px;
+    z-index: -2;
+}
+.greece-flag {
+    width: 600px;
+    height: 297px;
+    background-color: #005DAA;
+    box-shadow: gray 0 0 5px 1px;
+
+}
+.greece-flag-cross {
+    background: white;
+    height: 165px;
+    position: relative;
+    width: 33px;
+    right: -65px;
+}
+.greece-flag-cross::after {
+    background: white;
+    content: "";
+    height: 33px;
+    left: -65px;
+    position: absolute;
+    top: 63px;
+    width: 165px;
+}
+.greece-flag-balt {
+    background: white;
+    height: 33px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 600px;
+}
+.greece-flag-balt:after {
+    content: "";
+    background: white;
+    height: 33px;
+    left: 0px;
+    position: absolute;
+    top: 66px;
+    width: 600px;
+}
+.greece-flag-balt:before {
+    content: "";
+    background: white;
+    height: 33px;
+    left: 165px;
+    position: absolute;
+    top: -134px;
+    width: 435px;
+}
+.greece-flag-balt-1 {
+    background: white;
+    height: 32px;
+    left: 165px;
+    position: relative;
+    top: -102px;
+    width: 435px;
+}
+.south-africa {
+    width: 600px;
+    height: 300px;
+    background-color: #007C59;
+    box-shadow: gray 0 0 5px 1px;
+    margin: 50px 0;
+}
+.south-africa:after {
+    content: "";
+    border-top: 100px solid transparent;
+    border-left: 160px solid #000000;
+    border-bottom: 100px solid transparent;
+    position: relative;
+    top:-300px;
+}
+.south-africa:before {
+    content: "";
+    border-top: 120px solid transparent;
+    border-left: 190px solid #FCB514;
+    border-bottom: 120px solid transparent;
+    position: relative;
+    top: 160px;
+}
+.south-africa-down-blok {
+    width: 340px;
+    height: 120px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 160px;
+    right: -260px;
+}
+.south-africa-down-blok:after {
+    content: "";
+    width: 340px;
+    height: 100px;
+    background-color: #0C1C8C;
+    position: absolute;
+    top: 21px;
+    right: 0px;
+}
+.south-africa-down-blok:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 122px solid #FFFFFF;
+    border-left: 190px solid transparent;
+    position: relative;
+    left: -190px;
+    top:-17px;
+}
+.south-africa-down-blok-2{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #0C1C8C;
+    border-left: 150px solid transparent;
+    position: relative;
+    left: 110px;
+    top:62px;
+}
+.south-africa-top-blok-1{
+    width: 340px;
+    height: 120px;
+    background-color: #ffffff;
+    position: relative;
+    top: -240px;
+    right: -260px;
+}
+.south-africa-top-blok-1:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 118px solid #ffffff;
+    border-left: 180px solid transparent;
+    position: relative;
+    top: 120px;
+    left: -180px;
+}
+.south-africa-top-blok-1:before {
+    content: "";
+    width: 340px;
+    height: 100px;
+    background-color: #0C1C8C;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+.south-africa-top-blok-2 {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #0C1C8C;
+    border-left: 150px solid transparent;
+    position: relative;
+    top: -359px;
+    left: 110px;
+}
+
+.Flags {
+    position: relative;
+    margin: 0 auto;
+    width: 1204px;
+}
+
+.changes-flags-container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+/*Россия*/
+.Russia {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ffffff 33% , #0036a7 33% , #0036a7 66%, #d62718 66%);
+    position: relative;
+    display: inline-block;
+}
+
+.Russia:hover::after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0; top: 0; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 22px;; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+}
+/*Россия*/
+
+
+/*Мальдивские острова*/
+.Maldives {
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    background: #007f37;
+    border: 75px solid #d30731;
+    position: relative;
+    display: inline-block;
+}
+.maldives-crescent {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: -20px 0 0 0 #ffffff;
+    position: absolute;
+    right: 120px;
+    top: 15px;
+}
+
+.Maldives:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: -75px; top: -75px;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Мальдивские острова*/
+
+
+/*Норвегия*/
+.Norway {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(to right, #ef2729 18.33% , #ffffff 18.33% , #ffffff 31.66%, #ef2729 31.66%);
+    position: relative;
+    display: inline-block;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 26.66%;
+    background-color: #002368;
+    position: absolute;
+    top: 36.66%;
+    border-top: 20px solid #ffffff;
+    border-bottom: 20px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.vertical-line {
+    width: 6.66%;
+    height: 100%;
+    background-color: #002368;
+    position: absolute;
+    left: 130px;
+    z-index: 1;
+}
+.Norway:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Норвегия*/
+
+
+/*Республика Кот-д'Ивуар*/
+.IvoryCoast {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(90deg, #f78000 33%, #ffffff 33%, #ffffff 66%, #009f5f 66%);
+    position: relative;
+    display: inline-block;
+}
+
+.IvoryCoast:hover::after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0; top: 0; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 22px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+}
+/*Республика Кот-д'Ивуар*/
+
+
+/*Багамы*/
+.Bahamas {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(180deg, #00778c 33%, #ffc828 33%, #ffc828 66%, #00778c 66%);
+    position: relative;
+    display: inline-block;
+}
+.bahamas-arrow {
+    position: absolute;
+    border-left: 250px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+.Bahamas:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Багамы*/
+
+
+/*.Bahrein {
+    width: 370px;
+    height: 190px;
+    background: linear-gradient(90deg, white 33%, red 66%);
+}
+.Bahrein::after {
+
+}*/
+
+
+
+/*Либерия*/
+.Liberia {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(#c1032d 50%,transparent 50%);
+    background-size: 55px 55px;
+    position: relative;
+    display: inline-block;
+    }
+
+.liberia-square {
+    width:138px;
+    height:138px;
+    background: #002468;
+    position: absolute;
+}
+.liberia-star {
+    margin: 60px 20px;
+    display: block;
+    color: #ffffff;
+    width: 0px;
+    height: 0px;
+    border-right:  50px solid transparent;
+    border-bottom: 30px  solid #ffffff;
+    border-left:   50px solid transparent;
+    -moz-transform:    rotate(32deg);
+    -webkit-transform: rotate(32deg);
+    -ms-transform:     rotate(32deg);
+    -o-transform:      rotate(32deg);
+}
+.liberia-star:before {
+    border-bottom: 48px solid #ffffff;
+    border-left: 18px solid transparent;
+    border-right: 13px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -31px;
+    left: -30px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-33deg);
+    -moz-transform:    rotate(-33deg);
+    -ms-transform:     rotate(-33deg);
+    -o-transform:      rotate(-33deg);
+
+}
+.liberia-star:after {
+    position: absolute;
+    display: block;
+    color: #ffffff;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 30px solid #ffffff;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-64deg);
+    -moz-transform:    rotate(-64deg);
+    -ms-transform:     rotate(-64deg);
+    -o-transform:      rotate(-64deg);
+    content: '';
+}
+
+.Liberia:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Либерия*/
+
+
+/*Япония*/
+.Japan {
+    width: 600px;
+    height: 300px;
+    background: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+.japan-circle{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background: #bd0029;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.Japan:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Япония*/
+
+
+
+/*Сент-Винсент и Гренадины*/
+.SaintVincentAndGrenadin {
+    width:600px;
+    height: 300px;
+    background: linear-gradient(90deg, #0072c7 25%, #fcd20f 25%, #fcd20f 75%, #009f5f
+    75%);
+    position: relative;
+    display: inline-block;
+}
+
+.grenadin-rhomb1 {
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom: 55px solid #009f5f;
+    position: relative;
+    top: 75px;
+    left: 15px;
+}
+.grenadin-rhomb1:after {
+    content: '';
+    position: absolute;
+    left: -25px; top: 72px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 55px solid #009f5f;
+}
+.grenadin-rhomb2 {
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom: 55px solid #009f5f;
+    position: relative;
+    top: 135px;
+}
+.grenadin-rhomb2:after {
+    content: '';
+    position: absolute;
+    left: -25px; top: 72px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 55px solid #009f5f;
+}
+.grenadin-rhomb3 {
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom: 55px solid #009f5f;
+    position: relative;
+    top: 75px;
+    left: -15px;
+}
+.grenadin-rhomb3:after {
+    content: '';
+    position: absolute;
+    left: -25px; top: 72px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 55px solid #009f5f;
+}
+
+.rombs {
+    position: absolute;
+    left: 225px;
+}
+
+.SaintVincentAndGrenadin:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Сент-Винсент и Гренадины*/
+
+
+/*Королевство Бутан*/
+.Butan-position {
+    position: absolute;
+}
+.Butan {
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #ff4d0a;
+    border-left: 600px solid #ffd61a;
+    border-bottom: 300px solid transparent;
+    position: relative;
+    z-index: 0;
+}
+
+.butan-dragon {
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    right: 140px;
+    top: 75px;
+    background: url(../images/ButanDragon.png) no-repeat;
+    background-size: 350px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform:    rotate(-30deg);
+    -ms-transform:     rotate(-30deg);
+    -o-transform:      rotate(-30deg);
+}
+
+.butan-name {
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Королевство Бутан*/
+
+
+
+/*Сент Люссия*/
+.SaintLucia {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    background-color: #66cdff;
+}
+
+.SaintLucia-white-arrow {
+    position: absolute;
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 240px solid #ffffff;
+    top: 30px;
+    left: 205px;
+
+}
+
+.SaintLucia-black-arrow {
+    position: absolute;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 200px solid #000000;
+    top: 60px;
+    left: 225px;
+}
+
+.SaintLucia-yellow-arrow {
+    position: absolute;
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 120px solid #fcd20f;
+    top: 150px;
+    left: 205px;
+}
+
+.SaintLucia-name {
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+
+.SaintLucia:hover {
+    opacity: 0;
+}
+/*Сент Люссия*/
+
+/*Шотландия*/
+.Scotland {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.scotland-bottom-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    border-bottom: 120px solid #0065be;
+
+}
+
+.scotland-top-arrow {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    border-top: 120px solid #0065be;
+}
+
+.scotland-right-arrow {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    border-bottom: 120px solid transparent;
+    border-top: 120px solid transparent;
+    border-right: 240px solid #0065be;
+}
+
+.scotland-left-arrow {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    border-bottom: 120px solid transparent;
+    border-top: 120px solid transparent;
+    border-left: 240px solid #0065be;
+}
+
+.scotland-name {
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.Scotland:hover {
+    opacity: 0;
+}
+/*Шотландия*/
+
+
+
+
+/*Гернси*/
+.Guernsey-position {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.Guernsey {
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, white 44.166% , #e90929 44.166% , #e90929 55.83%, white 55.83%);
+    position: relative;
+    z-index: 0;
+}
+
+.guernsey-horizontal-line {
+    position: absolute;
+    width: 100%;
+    height: 23.33%;
+    top: 35%;
+    right: 0;
+    background-color: #f9de0f;
+    border: 20px solid #e90929;
+    border-right-width: 187.5px;
+    border-left-width: 187.5px;
+    box-sizing: border-box;
+}
+
+.guernsey-vertical-line {
+    position: absolute;
+    width: 5%;
+    height: 75%;
+    top: 12.5%;
+    right: 47.5%;
+    background-color: #f9de0f;
+}
+
+.guernsey-left-arrow{
+    position: absolute;
+    bottom: 135px;
+    left: 180px;
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #f9de0f;
+}
+
+.guernsey-right-arrow {
+    position: absolute;
+    bottom: 135px;
+    right: 180px;
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: 25px solid #f9de0f;
+}
+
+.guernsey-top-arrow {
+     position: absolute;
+     top: 28px;
+     left: 275px;
+     border-left: 25px solid transparent;
+     border-right: 25px solid transparent;
+     border-top: 25px solid #f9de0f;
+ }
+
+.guernsey-bottom-arrow {
+    position: absolute;
+    bottom: 28px;
+    left: 275px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #f9de0f;
+}
+
+.guernsey-name {
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Гернси*/
+
+
+
+/*Шри Ланка*/
+.SriLanka {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(to right, #00553f 90px , #ff5a00 90px );
+    box-sizing: border-box;
+    z-index: 1;
+    border: 25px solid #ffb900;
+    border-right-width: 400px;
+}
+
+.SriLanka-lion-field {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 0;
+    right: -375px;
+    background-color: #8e1a25;
+}
+
+.SriLanka-lion {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    right: -375px;
+    top: 5px;
+    background: url(../images/shr-lion.png) no-repeat;
+    background-size: 350px;
+}
+
+.SriLanka-name {
+    position: absolute;
+    right: -400px; top: -25px;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.SriLanka:hover {
+    opacity: 0;
+}
+
+
+/*Шри Ланка*/
+
+/*Черногория*/
+.Montenegro-position {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+
+.Montenegro {
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #c50002;
+    border: 16px solid #d4af38;
+    position: relative;
+    z-index: 0;
+}
+
+.Montenegro-image {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    background: url(../images/Coat_of_arms_of_Montenegro.svg.png) no-repeat;
+    background-size: 160px;
+
+}
+
+.Montenegro-name {
+    position: absolute;
+    right: -16px; top: -16px;
+    z-index: 1;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+/*Черногория*/
